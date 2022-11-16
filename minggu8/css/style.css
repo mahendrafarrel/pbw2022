@@ -1,0 +1,53 @@
+*{
+	box-sizing: border-box;
+}
+
+header{
+	padding: 30px;
+	text-align: center;
+	background-color: #e5e5e5;
+	border: 1px solid blue;
+}
+
+nav{
+	float: left;
+	width: 20%;
+}
+
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	background-color: #e5e5e5;
+	border: 1px solid blue;
+	margin-top: 0px;
+	padding: 0px;
+}
+
+nav ul i a:hover{
+	background-color: #555;
+	color: #fff;
+	font-weight: bold;
+}
+
+article{
+	float: left;
+	text-align: center;
+	width: 80%;
+	background-color: #e5e5e5;
+	border: 1px solid blue;
+	padding: 0 20px;
+}
+
+footer{
+	text-align: center;
+}
+
+.satu{
+	font-family: "Times New Roman", Times, serif;
+	color: blue;
+}
+
+.dua{
+	font-family: "Lucida Console", "Courier New", monospace;
+	color: brown;
+}
